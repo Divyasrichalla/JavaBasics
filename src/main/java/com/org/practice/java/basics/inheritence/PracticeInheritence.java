@@ -16,6 +16,5 @@ public class PracticeInheritence {
 		emp.phnNumber = 923516724;
 		emp.specialization = "Java";
 		emp.printSalary(emp.salary);
-
 	}
 }
