@@ -23,5 +23,35 @@ public class PracticeVariables {
 		System.out.println(myLong);
 		System.out.println(floatNum);
 		System.out.println(byteNum);
+
+		Integer i = 10;
+		Integer i1 = 10;
+		System.out.println(i==i1);//t
+		Integer in = 137;
+		Integer in1 = 137;
+		System.out.println(in==in1);//fa
+		int a = 137;
+		int b = 137;
+		System.out.println(a==b);//t
+		System.out.println(i.equals(i1));//t
+		System.out.println(i.equals(in));//f
+		System.out.println(in1.equals(in));//tr
+		System.out.println("137".equals(in));//tr
+		System.out.println(in1==in);//tr
+		add(123);
+		add(1.02,1.998f);
+
+
+
+	}
+	public static float add(float f) {
+		return f+f;
+	}
+
+	public static void add(double d, float f){
+		System.out.println("adding double and float");
+	}
+	public static void add(float f, double d){
+		System.out.println("adding float and double");
 	}
 }

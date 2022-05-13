@@ -9,6 +9,7 @@ public class PracticeInheritence {
 		bike.showInfo();
 		bikeVeh.showInfo();
 		bike.start();
+		//Single level inheritence
 		Employee emp = new Employee();
 		emp.salary = 50000;
 		emp.address = "Guntur";
@@ -16,5 +17,11 @@ public class PracticeInheritence {
 		emp.phnNumber = 923516724;
 		emp.specialization = "Java";
 		emp.printSalary(emp.salary);
+		//multilevel inheritence
+		Manager man = new Manager();
+		man.doWork();
+		man.inspect();
+		man.printSalary(1000000);
+
 	}
 }
