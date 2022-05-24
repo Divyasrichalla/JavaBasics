@@ -1,9 +1,8 @@
 package com.org.practice.java.basics.collections;
 
 import java.util.ArrayList;
-import java.util.List;
 
-public class CollectionsPractice {
+public class ArrayListPractice {
 	public static void main(String[] args) {
 		ArrayList<Integer> list = new ArrayList<>();
 		//List<String> newList = new ArrayList();
