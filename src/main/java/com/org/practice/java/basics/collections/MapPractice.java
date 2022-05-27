@@ -22,6 +22,7 @@ public class MapPractice {
 		map.put(4,"Four");
 		map.put(1,"one");
 		map.put(9,"Nine");
+		map.put(9,"Nine");
 		String s = map.get(9);
 		System.out.println(map);
 		System.out.println(map.entrySet());
